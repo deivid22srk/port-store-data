@@ -1,6 +1,6 @@
 {
   "format": "port-store-data",
-  "version": 1,
+  "version": 2,
   "passwordCheck": {
     "kdf": "PBKDF2WithHmacSHA256",
     "salt": "96ef6f9dc0f0e67c24b8903fbdf85a4a",
@@ -28,95 +28,9 @@
           "install"
         ]
       },
-      "package": {
-        "file": "games/pt-android/pt_android_portstore.tar.gz.psenc",
-        "sizeBytes": 1453868829,
-        "cipher": "AES/CTR/NoPadding",
-        "kdf": "PBKDF2WithHmacSHA256",
-        "iterations": 180000,
-        "salt": "7b796fb57988e554949574b7777c1181",
-        "iv": "00363c1c7ba4683dcd52fcc353f4552e",
-        "headerBytes": 39,
-        "plainSizeBytes": 1453868790,
-        "plainSha256": "a79121d3338cf8dad3cb6abd85b0da17eb9edc3cbd203b033955bcdb13e2edde",
-        "parts": [
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part00",
-            "sizeBytes": 99614720,
-            "sha256": "2ab9f0015cf3938aaad407c55f47eacf069b33eec93cef769ecdbcbfacf8f10b"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part01",
-            "sizeBytes": 99614720,
-            "sha256": "90c9171acd98079bf625af0d383d09b478b6d9bbaffafd30091899e662319bfa"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part02",
-            "sizeBytes": 99614720,
-            "sha256": "e7abffde99fa84581622a88b0bd3804a3288d8c7c585f0cca7c8c784c2eda66f"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part03",
-            "sizeBytes": 99614720,
-            "sha256": "5a5cc073a79434020d6d54e69b8c4cc6e0bdd9b8b88dfd9d318af544c61d96f3"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part04",
-            "sizeBytes": 99614720,
-            "sha256": "b51ba6619bcab9d03f293d31956c4e8f673cd00b58037d9b17d7fbc4ec144a95"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part05",
-            "sizeBytes": 99614720,
-            "sha256": "82e25c74071f496281819cf3c0036b448268156981850d347f8265433e148c7b"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part06",
-            "sizeBytes": 99614720,
-            "sha256": "9ce3e0a7547b5e305699514eef67b5f9ddb505e05f316b4a6eb0fdfffdf8b566"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part07",
-            "sizeBytes": 99614720,
-            "sha256": "0e1dcecf9d26ad48064a6510ab56850cb78e257e4981ca593b5e2628b5b96843"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part08",
-            "sizeBytes": 99614720,
-            "sha256": "5a5e93ee3b506e95d27eba2bbf6df644d0c3ccb0712afe84b870b198d0a1ba67"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part09",
-            "sizeBytes": 99614720,
-            "sha256": "c0b7204b0f0cda4b72dfc671f6df83d7a3c7624950616f34b792a3c9b24b76e3"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part10",
-            "sizeBytes": 99614720,
-            "sha256": "7ef8a71f3d100308eae687283ac4ab003e21e57c8c7e1db2ef3ee38ff60d5025"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part11",
-            "sizeBytes": 99614720,
-            "sha256": "325d85978f80be390ae1d20fb4c1a820a08b068b3312621b84e52a079d3b39f0"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part12",
-            "sizeBytes": 99614720,
-            "sha256": "ecda817a1b5c6b1baee243e6990830b5a0940f0237e3573a6838dd9a75160e8b"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part13",
-            "sizeBytes": 99614720,
-            "sha256": "e7793f69f91fb217ea61f5f8eeb31e9957135e373999b8f945cdac29a5fd385f"
-          },
-          {
-            "name": "games/pt-android/pt_android_portstore.tar.gz.psenc.part14",
-            "sizeBytes": 59262749,
-            "sha256": "71f20aef241400dd65f914dc33eb9583e830bbadc5f3f9947db62951642846b1"
-          }
-        ]
-      }
+      "source": "buzzheavier",
+      "url": "https://buzzheavier.com/cqt08005094h",
+      "compression": "gzip"
     }
   ]
 }
