@@ -36,7 +36,7 @@
         "iterations": 180000,
         "salt": "7b796fb57988e554949574b7777c1181",
         "iv": "00363c1c7ba4683dcd52fcc353f4552e",
-        "headerBytes": 40,
+        "headerBytes": 39,
         "plainSizeBytes": 1453868790,
         "plainSha256": "a79121d3338cf8dad3cb6abd85b0da17eb9edc3cbd203b033955bcdb13e2edde",
         "parts": [
